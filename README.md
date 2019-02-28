@@ -117,7 +117,7 @@ query {
 }
 ```
 
-- Admin ads a project.
+- Admin adding a project.
 ```bash
 mutation {
   addProject(name: "Project1", companyName: "Company1"){
