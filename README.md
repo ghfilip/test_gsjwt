@@ -65,8 +65,8 @@ mutation {
 }
 ```
 
-- User signUp.
-After you run the login mutation, put the token into Insomnia Auth Barer, so you can provide the auth token to the app.
+- User login.
+After you run the login mutation, put the token into Insomnia Auth Barer, so you can provide the auth token to the app for the next calls.
 ```bash
 mutation {
   login(userName: "test_user", password: "test") {
