@@ -31,30 +31,4 @@ const UserType = new gql.GraphQLObjectType({
     }),
 });
 
-const SignUpInputType = new gql.GraphQLObjectType({
-    name: 'signUp',
-    fields: () => ({
-        userName: {
-            type: gql.GraphQLString,
-            allowNull: false,
-            description: 'userName',
-        },
-        email: {
-            type: gql.GraphQLString,
-            allowNull: false,
-            description: 'email',
-        },
-        firstName: {
-            type: gql.GraphQLString,
-            allowNull: false,
-            description: 'firstName',
-        },
-        lastName: {
-            type: gql.GraphQLString,
-            allowNull: false,
-            description: 'lastName',
-        }
-    }),
-});
-
-module.exports = { UserType, SignUpInputType };
+module.exports = { UserType };
