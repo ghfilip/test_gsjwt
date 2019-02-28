@@ -1,0 +1,26 @@
+{
+  "name": "test-users-graphql-sequelize-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Filip Gheorghe",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.4.2",
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.7.1",
+    "express-jwt": "^5.3.1",
+    "graphql": "^14.1.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.1.1",
+    "pg": "^7.4.3",
+    "sequelize": "^4.32.2"
+  }
+}
