@@ -8,6 +8,7 @@ This test is using:
 ```bash
 sequelize
 graphql
+posgresql
 jwt
 ```
 
